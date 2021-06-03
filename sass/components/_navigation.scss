@@ -5,9 +5,7 @@
 .nav {
   display: flex;
 }
-.nav__l_i {
-  margin-right: 23px;
-}
+
 .nav__l_i {
   text-decoration: none;
   font-weight: 500;
@@ -15,10 +13,11 @@
   line-height: 1.333;
   letter-spacing: 0.02em;
   color: #212121;
+  margin-right: 23px;
+
+  &:hover,
+  &:focus {
+    color: var(--main--color);
+  }
 }
-.nav__l_i:hover,
-.nav__l_i:focus,
-.adress_footer_l_i:hover,
-.adress_footer_l_i:focus {
-  color: var(--main--color);
-}
+

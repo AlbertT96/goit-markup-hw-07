@@ -58,3 +58,11 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
+
+.adress_footer_l_i{
+
+  &:focus,
+  &:hover{
+  color: var(--main--color);
+  }
+}

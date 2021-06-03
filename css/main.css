@@ -202,6 +202,11 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.svg_list_i > .svg_link_i_f:hover, .svg_list_i > .svg_link_i_f:focus {
+  background-color: var(--main--color);
+  fill: var(--third-color);
+}
+
 .icon_list {
   width: 270px;
   display: flex;
@@ -210,14 +215,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 94px;
-}
-
-.svg_link_i:hover,
-.svg_link_i:focus,
-.svg_link_i_f:hover,
-.svg_link_i_f:focus {
-  background-color: var(--main--color);
-  fill: var(--third-color);
 }
 
 .svg_list_i_c > .svg_link_i_c {
@@ -252,16 +249,18 @@ img {
   fill: var(--third-color);
 }
 
-.icon_color:hover,
-.icon_color:focus,
-.svg_link_i_c_k:hover,
-.svg_link_i_c_k:focus {
+.svg_list_i_c_k > .svg_link_i_c_k:hover, .svg_list_i_c_k > .svg_link_i_c_k:focus {
   border-color: var(--secoundary-backgroundcolor);
   fill: var(--main--color);
 }
 
 .icon_color {
   fill: #afb1b8;
+}
+
+.icon_color:focus, .icon_color:hover {
+  border-color: var(--secoundary-backgroundcolor);
+  fill: var(--main--color);
 }
 
 .svg_padding {

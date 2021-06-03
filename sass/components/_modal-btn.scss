@@ -5,6 +5,12 @@
   background: var(--main--color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--main--color);
+    color: var(--third-color);
+  }
 }
 .portfolio_btn {
   cursor: pointer;
@@ -14,13 +20,11 @@
   margin-left: 4px;
   border: none;
   border-radius: 6%;
-}
-.modal-btn:hover,
-.modal-btn:focus,
-.portfolio_btn:hover,
-.portfolio_btn:focus {
-  background-color: var(--main--color);
-  color: var(--third-color);
+  &:hover,
+  &:focus {
+    background-color: var(--main--color);
+    color: var(--third-color);
+  }
 }
 
 .close-btn {
@@ -34,9 +38,9 @@
   border-radius: 50%;
   cursor: pointer;
   box-sizing: border-box;
-}
-.close-btn:hover {
-  animation: puls 2000ms infinite 250ms;
+  &:hover {
+    animation: puls 2000ms infinite 250ms;
+  }
 }
 
 .save-btn {

@@ -8,15 +8,16 @@
   width: 270px;
   padding-left: 15px;
   padding-right: 15px;
+  &:first-child {
+    width: 270px;
+    padding-right: 15px;
+  }
+  &:last-child {
+    width: 270px;
+    padding-left: 15px;
+  }
 }
-.lorem_div:first-child {
-  width: 270px;
-  padding-right: 15px;
-}
-.lorem_div:last-child {
-  width: 270px;
-  padding-left: 15px;
-}
+
 .lorem_vector {
   width: 100%;
   height: 120px;

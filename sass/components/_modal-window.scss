@@ -34,20 +34,6 @@
   text-decoration: underline;
 }
 
-.chbox-conditions::before {
-  content: "";
-  box-sizing: border-box;
-  border-radius: 3px;
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  border: 2px solid #212121;
-  margin-right: 8px;
-  position: relative;
-  top: 3px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .input-check-conditions:checked + .chbox-conditions::before {
   background: var(--main--color);
   border: none;
@@ -57,6 +43,20 @@
 }
 .chbox-conditions {
   font-size: 14px;
+
+  &::before {
+    content: "";
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #212121;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .modal-input-wrapper {
@@ -100,13 +100,13 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color 1250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal_input:focus,
-.modal_textarea:focus {
+  &:focus {
   outline: none;
   border: 1px solid var(--main--color);
 }
+}
+
+
 .modal_input:focus + .modal-form-svg {
   fill: var(--main--color);
 }
@@ -119,6 +119,10 @@
   box-sizing: border-box;
   border-radius: 4px;
   resize: none;
+  &:focus {
+  outline: none;
+  border: 1px solid var(--main--color);
+}
 }
 .modal_label,
 .modal_textarea {
@@ -135,11 +139,7 @@
 }
 .modal_label {
   display: inline;
-  font-family: var(--main--font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  font-size: 14px;
 }
