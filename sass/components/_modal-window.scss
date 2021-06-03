@@ -37,7 +37,7 @@
 .input-check-conditions:checked + .chbox-conditions::before {
   background: var(--main--color);
   border: none;
-  background-image: url(./images/vector.svg);
+  background-image: url(../images/vector.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
