@@ -1,0 +1,30 @@
+.lorem_list_bg {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.lorem_div {
+  width: 270px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.lorem_div:first-child {
+  width: 270px;
+  padding-right: 15px;
+}
+.lorem_div:last-child {
+  width: 270px;
+  padding-left: 15px;
+}
+.lorem_vector {
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,58 @@
+.header_border {
+  border-bottom: 1px solid #ececec;
+}
+.adress_header {
+  display: flex;
+  align-items: center;
+}
+.adress_header {
+  margin-left: auto;
+  margin-right: 100px;
+}
+.adress_header_l_i {
+  margin-left: 10px;
+}
+.odstep_miedzy_email_telefon {
+  margin-left: 30px;
+}
+.ulozenie_adresu_w_stopce {
+  padding-bottom: 9px;
+}
+.ulozenie_adresu_w_stopce_ostatni_element {
+  padding-bottom: 60px;
+}
+.active_page {
+  color: var(--main--color);
+}
+.active_page::after {
+  content: "";
+  width: 54px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--main--color);
+  position: absolute;
+  display: flex;
+  margin-top: 25px;
+}
+.adress_header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+}
+
+.adress_header_l_i,
+.adress_footer_l_i {
+  text-decoration: none;
+}
+.address_color {
+  color: var(--secondary-color);
+}
+.address_color:focus,
+.address_color:hover {
+  color: var(--main--color);
+}
+.svg_hover {
+  fill: currentColor;
+  margin-right: 10px;
+}
