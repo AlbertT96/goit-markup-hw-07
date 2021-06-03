@@ -1,15 +1,23 @@
-.background_div {
-  background: #2f303a;
-}
-.background_img {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/background_hero.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.our_team_bg {
-  background-color: #f5f4fa;
+.background {
+
+
+  &__div {
+    background: #2f303a;
+  }
+
+  &__img {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/background_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  &__our-team {
+    background-color: #f5f4fa;
+  }
+  
 }

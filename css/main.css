@@ -158,15 +158,15 @@ img {
   margin-right: auto;
 }
 
+.header .container {
+  display: flex;
+}
+
 .container_our_team_bg {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.header .container {
-  display: flex;
 }
 
 .container_hero {
@@ -561,17 +561,17 @@ img {
   color: #2196f3;
 }
 
-.background_div {
+.background__div {
   background: #2f303a;
 }
 
-.background_img {
+.background__img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.our_team_bg {
+.background__our-team {
   background-color: #f5f4fa;
 }
 
@@ -680,13 +680,13 @@ img {
   margin-bottom: 30px;
 }
 
+.nav {
+  display: flex;
+}
+
 .nav__list {
   display: flex;
   align-items: center;
-}
-
-.nav {
-  display: flex;
 }
 
 .nav__l_i {
