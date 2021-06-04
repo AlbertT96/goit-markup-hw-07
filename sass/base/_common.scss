@@ -36,6 +36,7 @@ p {
 .link {
   text-decoration: none;
 }
+
 img {
   display: block;
 }
@@ -56,14 +57,14 @@ img {
 .address {
   display: flex;
 }
-.akapit_p_class {
+.paragraph {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
-.naglowki_niższego_stopnia {
+.heading__h3 {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -72,7 +73,7 @@ img {
   color: #212121;
 }
 
-.naglowek_drugiego_stopnia {
+.heading__h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
@@ -81,9 +82,10 @@ img {
   color: #212121;
   padding-bottom: 50px;
 }
-.potrzeba_białego_tekstu {
+.color__white-text {
   color: var(--third-color);
 }
-.list_flex , .lorem_list {
+.list_flex,
+.lorem_list {
   display: flex;
 }

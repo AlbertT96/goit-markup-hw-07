@@ -1,11 +1,16 @@
 .footer {
   background: #2f303a;
+
+  &__text {
+    font-size: 14px;
+    text-decoration: none;
+  }
 }
-.logo_stopki {
+.logo_footer {
   padding-top: 60px;
   padding-bottom: 20px;
 }
-.padding_dolacz_footer {
+.padding_footer__join_us {
   padding-left: 50px;
   text-decoration: none;
   padding-top: 72px;
@@ -59,10 +64,9 @@
   border-radius: 4px;
 }
 
-.adress_footer_l_i{
-
+.adress_footer_list_item {
   &:focus,
-  &:hover{
-  color: var(--main--color);
+  &:hover {
+    color: var(--main--color);
   }
 }

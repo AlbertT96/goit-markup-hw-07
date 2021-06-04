@@ -1,7 +1,7 @@
 .header_border {
   border-bottom: 1px solid #ececec;
 }
-.adress_header {
+.adress__header {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -12,16 +12,16 @@
   letter-spacing: 0.02em;
 }
 
-.adress_header_l_i {
+.adress__header_list_item {
   margin-left: 10px;
 }
-.odstep_miedzy_email_telefon {
+.adress__header_spaceBetween {
   margin-left: 30px;
 }
-.ulozenie_adresu_w_stopce {
+.adress__footer_positione {
   padding-bottom: 9px;
 }
-.ulozenie_adresu_w_stopce_ostatni_element {
+.adress__footer_positione_last_element {
   padding-bottom: 60px;
 }
 .active_page {
@@ -39,8 +39,8 @@
   }
 }
 
-.adress_header_l_i,
-.adress_footer_l_i {
+.adress__header_list_item,
+.adress_footer_list_item {
   text-decoration: none;
 }
 .address_color {

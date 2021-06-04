@@ -1,5 +1,5 @@
 // LOGO HEADER
-.pierwsza_czesc_logo {
+.logo__first_part {
   display: flex;
   margin-left: 110px;
   font-family: var(--main-color);
@@ -11,7 +11,7 @@
   color: #2196f3;
 }
 
-.druga_czesc_logo {
+.logo__sec_part {
   display: flex;
   margin-right: 46px;
   color: var(--secondary-color);
@@ -21,14 +21,14 @@
   font-weight: 700;
   font-size: 26px;
 }
-.ustawienie_logo_w_headerze {
+.logo__settings {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
 // LOGO FOOTER
 
-.pierwsza_czesc_logo_footer {
+.logo__first_part_footer {
   display: flex;
   font-family: var(--main-color);
   font-weight: 700;

@@ -1,4 +1,4 @@
-.svg_list_i > .svg_link_i {
+.svg_list_item > .svg_link_item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
   fill: #afb1b8;
 }
 
-.svg_link_i {
+.svg_link_item {
   &:hover,
   &:focus {
     background-color: var(--main--color);
@@ -17,7 +17,7 @@
   }
 }
 
-.svg_list_i > .svg_link_i_f {
+.svg_list_item > .svg_link_item_f {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@
   fill: var(--third-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
-.svg_link_i_f {
+.svg_link_item_f {
   &:focus,
   &:hover {
     background-color: var(--main--color);
@@ -45,14 +45,14 @@
   padding-bottom: 94px;
 }
 
-.svg_list_i_c > .svg_link_i_c {
+.svg_list_item_c > .svg_link_item_c {
   display: flex;
   justify-content: center;
   margin-left: 10px;
   fill: #afb1b8;
 }
 
-.svg_link_i_c {
+.svg_link_item_c {
   &:hover,
   &:focus {
     background-color: var(--main--color);
@@ -67,7 +67,7 @@
   border-radius: 4px;
   fill: var(--third-color);
 }
-.svg_list_i_c_k > .svg_link_i_c_k {
+.svg_list_item_ourClients > .svg_link_item_ourClients {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,7 @@
   fill: var(--third-color);
 }
 
-.svg_link_i_c_k {
+.svg_link_item_ourClients {
   &:hover,
   &:focus {
     border-color: var(--secoundary-backgroundcolor);
